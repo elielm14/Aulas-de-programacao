@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segundo teste de imagem Dinâmica</title>
+</head>
+<body>
+    <h1>Imagem dinamica meme</h1>
+  
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/html-g.png" alt="imagem grande">
+    </picture>
+    <h2>Audio no site</h2>
+    <p>audio da tamilizinha</p>
+    <!--melhor forma de adicionar audio é desta forma-->
+    <audio preload="metadata" autoplay controls>
+        <source src="WhatsApp Ptt 2021-02-26 at 10.16.28.ogg" type="audio/ogg">
+    </audio>
+<video width="300" poster="imagens/imagem-g.png" controls>
+    <source src="WhatsApp Video 2021-02-25 at 09.16.46.mp4" type="video/mp4">
+</video>
+<h1>inserindo video do youtube</h1>
+<iframe width="500" height="315" src="https://www.youtube.com/embed/zZc_E4cCaE0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
