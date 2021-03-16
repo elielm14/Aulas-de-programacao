@@ -9,9 +9,28 @@
 </head>
 <body>
     <h1>Aqui será testado DOM</h1>
-    <hr>
-    <p>Vamos fazer a interação com o mouse</p>
+    <p>Aqui vai o resultado do <strong>DOM</strong></p>
+    <p>Vamos fazer a interação com o mouse.</p>
     <br>
-    <div>Clique aqui!</div>
+    <div class="msg">Clique aqui!</div>
+    <!-- div id para selecionar por ID com getElementById --> 
+    <br>
+    <script>
+        /* para selecionar por tag name se forem varios p ou varios h1 precisa usar [] e os numeros começando de 0,1,2,... */
+      /*   var p1 = document.getElementsByTagName('p')[0]
+        document.write('Agora será esquito o resiltado da variavel var: ' + p1.innerHTML) */
+        //para alterar o style de var, pode-se usar o DOM. Também pode alterar o texto como no exemplo abaixo.
+        //sempre usar sinais de concatenação ou igualdade para fazer as funções. ex: innerText = 'estou aqui'+'veja' (estou aqui veja)
+        /* var d = document.getElementsByName('msg')[0]
+        d.style.background = 'white'
+        d.innerHTML='Estou clicando' + '...' */
+       
+       /* funciona para id e class */
+        var d=document.querySelector('.msg')
+        d.style.background = 'white'
+
+        
+        
+    </script>
 </body>
 </html>
