@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando números</title>
+    <style>
+        body{
+            font: 20pt normal;
+        }
+        input{
+            font: 15pt normal;
+            width: 100pt;
+        }
+        div{
+            margin: 10pt;
+            margin-top: 10pt;
+        }
+    </style>
+</head>
+<body>
+    <h1>Somando os valores digitados pelo usuário</h1>
+    <input type="number" name="txtn1" id="txtn1"> +
+    <input type="number" name="txtn2" id="txtn2">
+    <input type="button" value="somar" onclick="somar()">
+    <div id="res">Resultado</div>
+
+    <script>
+        function somar () {
+            /* para armazenar o texto digitado pelo usuario */
+            var tn1 = document.getElementById('txtn1')
+            /* pode ser feito com queryselector tambem, exemplo dos dois modos */
+            var tn2 = document.querySelector('input#txtn2')
+            /* para armazenar o resultado */
+            var res = document.getElementById('res')
+            /* para transformar e armazenar o texto do usuario em numero, abaixo */
+            var n1 = Number(tn1.value)
+            var n2 = Number(tn2.value)
+            /* para ser feita a soma criamos a variavel s */
+            var s = n1 + n2
+                       
+            /* res.innerText = 'A soma dos Blocos é igual a ' + s */
+
+             /* para acabamento em html colocar entre crases `e utlizar a interpolação ${}`*/
+
+             res.innerHTML = `A soma de ${n1} e ${n2} é igual a <strong>${s}</strong>`
+        }
+    </script>
+</body>
+</html>
