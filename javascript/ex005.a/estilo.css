@@ -13,8 +13,11 @@ text-align: center;
 }
 div{
     text-align: center;
-    padding: 10px
-}
+    padding: 10px;
+    }
+    img{
+        width: 73%;
+    }
 section{
     background: white;
     border-radius: 10px;
@@ -23,6 +26,7 @@ section{
     margin: auto;
     color: rgb(1, 24, 24);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.575);
+    
 
 }
 footer{
