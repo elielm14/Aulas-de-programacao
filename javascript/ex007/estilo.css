@@ -11,6 +11,9 @@ color: white;
 text-align: center;
 
 }
+input{
+   margin: auto;
+}
 section{
     background: white;
     border-radius: 10px;
