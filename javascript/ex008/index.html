@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- area de cabeçaho -->
+    <header>
+<h1>Calculadora</h1>
+    </header>
+    <!-- area do conteudo -->
+    <section>
+<div>
+<p>Numero: <input type="number" name="textent" id="textent"> <input type="button" value="Gerar Calculadora" onclick="clicar()"></p>
+</div>
+<div>
+Tabuada: <select name="tabuada" id="tab" size="10">
+    <!-- criado diretamente no html, mas para esse caso é melhor de forma dinamina. Esta ação coloca valores e textos dentro do <select> que é uma lista em html. OBS: value é importante para o PHP para puxar relatorios de cada item. <option value="v1"> valor 1</option> -->
+        <option value="digite">Digite um número acima.</option>
+</select>
+</div>
+    </section>
+    <!-- area do roda pe -->
+    <footer>
+     <a href="https://github.com/elielm14" target="_blank" real="external"><p>&copy;Eliel Maia </p></a>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
