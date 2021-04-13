@@ -21,6 +21,17 @@ section{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.575);
 
 }
+select#ana{
+    width: 250px;
+    text-align: center;
+    padding: 5px;
+}
+input#finalizar{
+    margin-left: 10px
+}
+input#adicionar{
+    margin-left: 10px;
+}
 footer{
 text-align: center;
 font-style: italic;
