@@ -26,10 +26,11 @@ select#ana{
     text-align: center;
     padding: 5px;
 }
-input#finalizar{
-    margin-left: 10px
+input#fin{
+    margin-left: 10px;
+    margin-block-end: 10px;
 }
-input#adicionar{
+input#adic{
     margin-left: 10px;
 }
 footer{
